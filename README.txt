@@ -1,6 +1,7 @@
-Daniel Wang dkw50
-Amy Amkhanitsky ala165
+Amy Margolina
+Daniel Wang
 
+An implementation of our own versions of the standard library functions malloc() and free(). Unlike the standard implementations, our version also detects common usage errors and reports them.
 
 Test Plan:
 	Correctness and Error Testing in genmemtest.c:
