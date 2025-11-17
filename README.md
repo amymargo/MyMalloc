@@ -1,17 +1,15 @@
 # Custom Memory Allocator in C (MyMalloc & MyFree)
-### A Lightweight Heap Manager With Block Headers, Splitting, Coalescing, Error Detection, and Comprehensive Testing
+### Heap Manager With Block Headers, Splitting, Coalescing, Error Detection, & Comprehensive Testing
 
 This project implements a custom dynamic memory allocator in C, replacing the standard `malloc()` and `free()` functions with `mymalloc()` and `myfree()`.  
 The allocator manages a fixed-size heap, performs splitting and coalescing of blocks, ensures 8-byte alignment, and detects common memory-management errors.  
 It also includes correctness, error-handling, and performance testing using `genmemtest.c` and `memgrind.c`.
 
-This repository demonstrates low-level systems programming, pointer arithmetic, block metadata management, error detection, and performance benchmarking.
+This project demonstrates system-level programming skills including manual memory management, pointer arithmetic, heap management, performance benchmarking, and defensive error handling.
 
 ---
 
 ## Overview
-
-This allocator:
 
 - Manages a 4096-byte heap in static memory  
 - Stores metadata in block headers (size and allocation status)  
@@ -249,5 +247,3 @@ make
 # Authors
 
 Amy Margolina, Daniel Wang
-
-This project demonstrates system-level programming skills including manual memory management, pointer arithmetic, heap management, performance benchmarking, and defensive error handling.
